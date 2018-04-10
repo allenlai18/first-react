@@ -1,5 +1,6 @@
 import React from 'react';
 
+// same as -->  const video = props.video
 const VideoDetail = ({video}) => {
     console.log(video);
     if (!video) {
